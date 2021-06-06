@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_baseline_user"
+        android:title="Profil"
+        app:showAsAction="collapseActionView|ifRoom"/>
+
+    <item android:id="@+id/menu_note"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="Catatan" />
+
+    <item android:id="@+id/menu_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Info" />
+
+</menu>
